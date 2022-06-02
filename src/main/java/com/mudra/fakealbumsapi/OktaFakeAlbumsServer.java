@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OktaFakeAlbumsServer {
 	
 	// Hardcoded Resource API location
-	private static final String IMAGE_PREFIX 				= "http://localhost:8081";
+	private static final String IMAGE_PREFIX 				= "https://app-okta-albums-api-220601182037.azurewebsites.net";
 	private static final String IMAGE_PREFIX_JACKSONVILLE 	= IMAGE_PREFIX + "/jacksonville";
 	private static final String IMAGE_PREFIX_NEWYORK		= IMAGE_PREFIX + "/newyork";
 	private static final String IMAGE_PREFIX_MIAMI 			= IMAGE_PREFIX + "/miami";
